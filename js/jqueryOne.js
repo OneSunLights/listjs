@@ -1,7 +1,7 @@
 $(function(){
     $('#addCase').click(function(){
         if( $('.pusto').length )
-            $('.left-list').first().html('<div class="list-item"><div class="list-head"><p>'+$('#nameCase').val()+'</p><a href="#" class="degger">X</a></div><p class="list-description">'+$('#description').val()+' </p></div>');
+            $('.left-list').first().html('<div class="list-item"><div class="list-head"><p>'+$('#nameCase').val()+'</p></div><p class="list-description">'+$('#description').val()+' </p></div>');
         else
             $('.left-list').first().prepend('<div class="list-item"><div class="list-head"><p>'+$('#nameCase').val()+'</p><a href="#" class="degger">X</a></div><p class="list-description">'+$('#description').val()+' </p></div>');
     
