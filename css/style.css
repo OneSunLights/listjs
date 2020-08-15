@@ -1,0 +1,86 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
+	font-family: Arial;
+	background:#f5f5f5;
+}
+
+h2 {
+	font-size: 20px;
+	padding: 27px 0 27px 18px;
+	margin: 0 0 34px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.fixed-container{
+	width:920px;
+	min-height:350px;
+	margin:0 auto;
+}
+.left-list{
+	width:470px;
+	float:left;
+}
+.left-list h2{
+	font-size:21px;
+	font-weight:400;
+}
+.add-list{
+	width: 430px;
+}
+.list-item{
+	background:white;
+	padding: 20px 21px;
+	min-height:137px;
+}
+.list-head p{
+	font-size:16px;
+	font-weight: 400;
+}
+.list-head{
+	margin-bottom:30px;
+}
+
+.list-description{
+	color:#8993ad
+}
+/* Правая панель добавления заметок */
+.add-list{
+	float:right;
+}
+.add-panel{
+	width:470px;
+	min-height:499px;
+	background:#fff;
+}
+.fix-panel{
+	padding: 30px 0 0 40px;
+}
+.add-panel p{
+	font-size: 14px;
+	font-weight: 400px;
+	color:#8993ad;
+}
+#addCase{
+	display:block;
+	width: 224px;
+	height:54px;
+	background:#de1137;
+	text-decoration: none;
+	line-height: 50px;
+	text-align:center;
+	color:#fff;
+	margin: 31px 0 0 40px;
+}
+textarea{
+	width:390px;
+	height: 230px;
+}
+.degger{
+	display:block;
+	color:#ff0000;
+	width:10px;
+	height:10px;
+	cursor: pointer;
+}
