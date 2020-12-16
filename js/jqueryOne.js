@@ -6,10 +6,6 @@ $(function(){
             $('.left-list').first().prepend('<div class="list-item"><div class="list-head"><p>'+$('#nameCase').val()+'</p></div><p class="list-description">'+$('#description').val()+' </p></div>');
     
     });
-    $('.degger').click(function(){
-        $(this).remove();
-        return false;
-    });
     $('textarea').on('focus', function(){
         $(this).css('background','#5279e6');
     });
